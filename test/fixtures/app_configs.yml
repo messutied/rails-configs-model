@@ -1,0 +1,6 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+config_integer:
+  name: config_integer
+  value: 123
+  cdata_type: i
