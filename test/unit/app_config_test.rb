@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class AppConfigTest < ActiveSupport::TestCase
-  test "data type integer" do
+  test "should get config with data type integer" do
     integer_setting = AppConfig.get(:config_integer)
     assert integer_setting.class == Fixnum, "Class: #{integer_setting.class}"
   end
